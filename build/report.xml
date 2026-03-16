@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="5" failures="1" disabled="0" errors="0" time="0.002" timestamp="2026-03-16T10:54:12.314" name="AllTests">
+  <testsuite name="AddTest" tests="5" failures="1" disabled="0" skipped="0" errors="0" time="0." timestamp="2026-03-16T10:54:12.315">
+    <testcase name="PositiveNumbers" file="/workspaces/addition_gtest/test_add.cpp" line="8" status="run" result="completed" time="0." timestamp="2026-03-16T10:54:12.316" classname="AddTest" />
+    <testcase name="AddZero" file="/workspaces/addition_gtest/test_add.cpp" line="14" status="run" result="completed" time="0." timestamp="2026-03-16T10:54:12.316" classname="AddTest" />
+    <testcase name="NegativeNumbers" file="/workspaces/addition_gtest/test_add.cpp" line="22" status="run" result="completed" time="0." timestamp="2026-03-16T10:54:12.316" classname="AddTest" />
+    <testcase name="LargeNumbers" file="/workspaces/addition_gtest/test_add.cpp" line="29" status="run" result="completed" time="0." timestamp="2026-03-16T10:54:12.316" classname="AddTest" />
+    <testcase name="FailingTest" file="/workspaces/addition_gtest/test_add.cpp" line="34" status="run" result="completed" time="0." timestamp="2026-03-16T10:54:12.316" classname="AddTest">
+      <failure message="/workspaces/addition_gtest/test_add.cpp:36&#x0A;Expected equality of these values:&#x0A;  add(2, 3)&#x0A;    Which is: 5&#x0A;  99&#x0A;" type=""><![CDATA[/workspaces/addition_gtest/test_add.cpp:36
+Expected equality of these values:
+  add(2, 3)
+    Which is: 5
+  99
+]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
